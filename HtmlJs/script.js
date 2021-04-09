@@ -19,6 +19,7 @@ var total = quantity * price * discount;
 alert(total);
 }
 */
+/*
 var beker = prompt('Adj meg egy számot');
 var bekerTwo = prompt('Adj meg egy másik számot');
 if(isFinite(beker)){
@@ -38,6 +39,17 @@ if(isFinite(beker)){
 
 // isFinite számot ad meg csak akkor true leelenőrzi hogy szám-e
 //csak integerre müködik
+*/
+
+// For Ciklus ------
+var a = 1;
+for (var i = 0; i < 5; i++){
+  // a kettőnek a hatványai 
+  a *= 2;
+  document.write('Index: ', i ,' Az érték: ' , a ,' <br/>');
+}
+
+
 
 
 //https://www.youtube.com/watch?v=FCZhNaTtePc&list=PL6VA7Z5zO0dq-6NWrHzIy7dqLfeZhhhOz&index=12
