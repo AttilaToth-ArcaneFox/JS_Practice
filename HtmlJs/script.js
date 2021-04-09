@@ -43,10 +43,21 @@ if(isFinite(beker)){
 
 // For Ciklus ------
 var a = 1;
+var b = 0;
 for (var i = 0; i < 5; i++){
   // a kettőnek a hatványai 
   a *= 2;
   document.write('Index: ', i ,' Az érték: ' , a ,' <br/>');
+}
+document.write('<br>');
+
+document.write('1 től 100 ig az összes páros és 3 al oszzthatő szám', '<br>' ,'<hr>');
+for (var i = 1; i <= 100; i++ ){  
+  if(i % 2 === 0){
+    document.write(i ,' Páros ' ,' <br> ','<hr>');
+  }else if (i % 3 === 0){
+    document.write (i, ' Osztható 3-al ', ' <br>','<hr>');
+  }
 }
 
 
