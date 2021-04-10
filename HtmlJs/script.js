@@ -148,8 +148,17 @@ document.write('Worong number!!!');
 }
 */
 
-
-
+//Trigonometry
+document.write('<table border = "1px">')
+for (var i = 0; i <= 360; i++){
+    var rad = i*Math.PI/180; // Make a radian
+    document.write('<tr><td>',i ,'° = </td><td>radian: ' ,rad ,
+    '</td><td>sin = ',Math.sin(rad),
+    '</td><td>cos = ',Math.cos(rad),
+    '</td><td>tan = ',Math.tan(rad),
+    '</td><td>ctg = ', 1/Math.tan(rad),'</td></tr>');
+  }
+  document.write('</tabele>')
 
 
 
