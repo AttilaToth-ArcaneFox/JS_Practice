@@ -42,6 +42,7 @@ if(isFinite(beker)){
 */
 
 // For Ciklus ------
+/*
 var a = 1;
 var b = 0;
 for (var i = 0; i < 5; i++){
@@ -58,7 +59,15 @@ for (var i = 1; i <= 100; i++ ){
   }else if (i % 3 === 0){
     document.write (i, ' Osztható 3-al ', ' <br>','<hr>');
   }
+}*/
+// while and do while loops
+var n = prompt('Kerem a számot');
+while (!isFinite(n)){
+  n = prompt('Kerem adj számot');
 }
+document.write('Végre számot irtál! igen:', n , ' egy szám ')
+
+
 
 
 
