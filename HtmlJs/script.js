@@ -148,7 +148,8 @@ document.write('Worong number!!!');
 }
 */
 
-//Trigonometry
+/*
+//Trigonometry 
 document.write('<table border = "1px">')
 for (var i = 0; i <= 360; i++){
     var rad = i*Math.PI/180; // Make a radian
@@ -159,6 +160,72 @@ for (var i = 0; i <= 360; i++){
     '</td><td>ctg = ', 1/Math.tan(rad),'</td></tr>');
   }
   document.write('</tabele>')
+*/
+
+//Strings
+// str.charAt(i): kiiraj az a karaktert ahanyadik helyen van
+
+/*
+var str = new String(prompt('Type your name'));
+//document.write('Hi! ',str,'! Your name is: ', str.length, ' characters long');
+for (var i = 0; i < str.length; i++){
+  document.write(str.charAt(i),'<br>'); 
+}
+*/
+
+// str.valueOf(): összehasonlításnál eldönti melyik van előbb. asci alapjan
+/*var str1 = new String('alma');
+var str2 = new String('alma');
+if (str1.valueOf() > str2.valueOf){
+  document.write('Az első nagyobb');
+}else if(str1.valueOf() < str2.valueOf ){
+  document.write('A masodik a nagyobb');
+}else{
+  document.write('egyenlőek');
+}
+*/
+
+/*
+for (i = 32; i<255; i++){
+  document.write(String.fromCharCode(i)); // ascii kód jele
+}
+*/
+
+/*
+var str = new String('Árvíztűrő tükörfúrógép','<br>');
+
+document.write(str,'<br>');
+
+// str.toUpperCase(): nagybetüssé teszi a kapott stringet
+document.write(str.toUpperCase(), '<br>');
+
+// str.toLowerCase(): kisbetüssé teszi a dolgokat
+document.write(str.toLowerCase(), '<br>');
+
+// str.substr(Kezdőpozició száma,meddig akkarjuk kivágni[ez nem kötelező]) résztring visszaadás addot poziciótol
+document.write(str.substr(10,5), '<br>');
+
+// str.indexOf('tükör'): visszadja azt az indekxet ahol kezdődik a keresett szó, ha nincs benne akkor -1 az első előfordulást csak vissza
+document.write(str.indexOf('tükör') ,'<br>');
+
+//str.lastIndexOf('r'): az előzőnek a forítottja
+document.write(str.lastIndexOf('r') ,'<br>');
+*/
+
+/*
+var x = new Number;
+var names = new String(prompt('Add meg a teljes neved: '));
+
+var x =  names.lastIndexOf(' ') + 1;
+document.write('Szia ',names.substr(x));
+*/
+
+
+
+
+
+
+
 
 
 
