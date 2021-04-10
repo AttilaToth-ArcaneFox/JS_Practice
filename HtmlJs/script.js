@@ -61,11 +61,95 @@ for (var i = 1; i <= 100; i++ ){
   }
 }*/
 // while and do while loops
-var n = prompt('Kerem a számot');
+/*var n = prompt('Kerem a számot');
 while (!isFinite(n)){
   n = prompt('Kerem adj számot');
 }
-document.write('Végre számot irtál! igen:', n , ' egy szám ')
+*/
+/*
+var n;
+do {
+n = prompt('Adj meg egy számot')
+
+}while(!isFinite(n));
+document.write('Végre számot irtál! igen:', n , ' egy szám ');
+*/
+// Random szám generállása
+//Math.random 0.xxxxxx számot ad 
+//Math.random * 100 + 1 -> igy lesz 1 től 100 ig valós
+
+/* Simple guess the number game in JS!
+alert ('1: easy mode!  2: normal mode! 3: hard mode');
+var chose = prompt('Chose one');
+var count = 1;
+switch(chose){
+  case '1': 
+  alert('I thought of a number: between 1 and 10');  
+  var x = Math.floor(Math.random() * 10) + 1; 
+  alert('You have 5 guess!!! ');
+  do{  
+    var tipp = prompt('Guess');    
+    if (count === 5 ){
+      alert('You Lost');
+    }else if (tipp < x && count !== 5){
+      alert(' The Thought Number is bigger!');
+    }else if(tipp > x && count !== 5){
+      alert(' The Thought Number is smaller!');
+    }else {
+      alert('You Win!');
+    } 
+    document.write('Number of Guesses: ', count); 
+    count++;
+  }while(tipp != x && count <= 5);
+  break;
+
+  case '2': 
+  alert('I thought of a number: between 1 and 50');  
+  var x = Math.floor(Math.random() * 50) + 1; 
+  alert('You have 10 guess!!! ');
+  do{  
+    var tipp = prompt('Guess');    
+    if (count === 10 ){
+      alert('End of the game');
+    }else if (tipp < x && count !== 10){
+      alert(' The Thought Number is bigger!');
+    }else if(tipp > x && count !== 10){
+      alert(' The Thought Number is smaller!');
+    }else {
+      alert('You Win!');
+    } 
+    document.write(count,'. tipp' ,'<br>'); 
+    count++;
+  }while(tipp != x && count <= 10);
+  break;
+
+  case '3': 
+  alert('I thought of a number: between 1 and 100');  
+  var x = Math.floor(Math.random() * 100) + 1; 
+  alert('You have 10 guess!!! ');
+  do{  
+    var tipp = prompt('Guess');    
+    if (count === 10 ){
+      alert('End of the game');
+    }else if (tipp < x && count !== 10){
+      alert(' The Thought Number is bigger');
+    }else if(tipp > x && count !== 10){
+      alert(' The Thought Number is smaller! ');
+    }else {
+      alert('You Win!');
+    } 
+    document.write(count,'. tipp' ,'<br>'); 
+    count++;
+  }while(tipp != x && count <= 10);
+  break;
+
+default : 
+document.write('Worong number!!!');
+}
+*/
+
+
+
 
 
 
