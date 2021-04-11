@@ -260,4 +260,42 @@ shift()   Eltávolítja a tömb első elemét: tomb.shift() -> 'Dinnye','Krumpli
 unshift()  Új elemet szúr be a tömb első poziciójára. tomb.unshift()
 */
 
+// webpage dinamic 
 
+// objects 
+
+// konstruktor
+/*
+function ember(name, age){
+    this.name = name;
+    this.age = age;
+  }  
+  var jani = new ember("Kis Jani", 17);  
+  document.write(jani.age);
+  */
+
+  /*
+  function ember(name, age){
+    this.name = name;
+    this.age = age;
+    this.money = money;
+  }
+  function money(){
+      var x = 65 - this.age;
+      return x;
+  }
+
+  var jani = new ember("Kiss Jani",18);
+  var psiti = new ember("Erős Pista", 19);
+
+  document.write(jani.money());
+
+  */
+
+  // setInvertl("Bármilyen függvény", milyen időközönként csinálja)
+  // setTimeout("Bármilyen füügvény", amikor lejár at idő)
+  function kiir(){
+      document.write("Alma ");
+  }
+
+setTimeout("alert('Hello')",1000);
