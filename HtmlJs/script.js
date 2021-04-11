@@ -230,6 +230,4 @@ document.write('Szia ',names.substr(x));
 
 
 
-
-
 //https://www.youtube.com/watch?v=FCZhNaTtePc&list=PL6VA7Z5zO0dq-6NWrHzIy7dqLfeZhhhOz&index=12

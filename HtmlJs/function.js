@@ -363,5 +363,5 @@ function openWin(){
 function closeWin(){
     ablak.close();
 }
-*/7
+*/
 
