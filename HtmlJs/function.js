@@ -64,5 +64,60 @@ function eldont(prim){
 }
 */
 
+// ----- Arrays -----
+/*
+var arr = new Array();
+for (var i = 0; i < 3 ; i++){
+    arr[i] = prompt('Add meg az elemeket');    
+}
+// arr.push('valami') hozzáadja a tömb végéhez az elemet
+// arr.pop () kitörli a tömb utolsó elemét
+// arr.unshift('valami') a tömb elejéhez adja hozzá a megadott értéket
+// arr.shift() törli a tömb 0. elemét
+// arr.indexOf('mit') megkeresi az első előforulást a tömben és visszadja az indexet
+// arr.lastIndexOf('mit')  az utolsó előfordulás indexét adja vissza
+
+arr.shift();
+arr.unshift(2);
+arr.push(1);
+arr.pop();
+arr.indexOf(2);
+arr.lastIndexOf(3);
+
+for (var i = 0; i < arr.length; i++){
+    document.write(arr[i], ' ');
+}
+*/
+function randomArrayNumbers(arr){
+    for (var i = 0; i < 100; i++){
+        arr.push(Math.floor(Math.random()* 100 ) +1 );
+    }
+}
+
+function countTheGivenNumberAndGiveTheIndex(arr, numb){
+    var count = new Number;
+    count = 0;    
+    for (var i = 0; i < arr.length; i++){
+        if (arr[i] == numb){ 
+            document.write('Az: ',numb,' szám a ', i ,' indexne található meg', '<br>');          
+            count++;            
+        }
+    }
+   
+
+     document.write('A ', numb,' összesen ', count, '(szor/-szer) szerepel a tömben');
+}
+
+function arrayPrineter (arr){
+    for (var i = 0; i < arr.length; i++){
+        document.write('A tömb: ', i , '. eleme: ' , arr[i], '<br>');
+    }
+}
+
+var arr = new Array();
+randomArrayNumbers(arr);
+arrayPrineter(arr);
+countTheGivenNumberAndGiveTheIndex(arr,5);
+
 
 //https://www.youtube.com/watch?v=-eaB3rRNlLc&list=PLuYHIg_0xQJsiwA4jrXTWaIdqMGJQ4sAU&index=16
