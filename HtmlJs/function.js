@@ -125,10 +125,12 @@ countTheGivenNumberAndGiveTheIndex(arr,5);
 // Hexa converter
 
 // parseInt(szám) integert csinál a valős számból
-
+/*
 function println(x){
     document.write(x,'<br>');
 }
+
+*/
 // A hexa/bin converter function a given nubmer in decimals convereted into hexa/bin
 /*
 function hexaBinConverter (numb, switcher){    
@@ -166,9 +168,26 @@ if((chooser == 1 || chooser == 0)){
 }
 */
 
+//2D Arrays 
+/*
+function sumTwoDArray(twoDArry){
+    var summ = 0;
+    for (var i = 0; i < twoDArry.length ; i++ ){
+        for(var j = 0; j  < twoDArray[i].length; j++ ){
+            summ +=twoDArray[i][j];
+        }
+    }    
+    return summ;
+}
 
+var twoDArray = new Array(  
+                new Array(1,2,3),
+                new Array(4,5,6),
+                new Array(7,8,9),
+                new Array(10,11,12)
+);
+document.write(sumTwoDArray(twoDArray));
 
-
-
+/*
 
 
