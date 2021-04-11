@@ -188,6 +188,20 @@ var twoDArray = new Array(
 );
 document.write(sumTwoDArray(twoDArray));
 
-/*
+*/
+//switch statement
+var num = parseInt(prompt('Adj meg egy számot 1 és 3 között')); //átrakja integerré
 
-
+switch(num){
+    case 1: 
+        document.write('Ez az az egyest adtad meg');
+        break;
+    case 2:
+        document.write('Ez az a kettest adtad meg');
+        break;
+    case 3:
+        document.write('Ez az a hármast adtad meg');
+        break;
+    default: 
+        document.write('Hát ez nem jött ösze'); 
+}
