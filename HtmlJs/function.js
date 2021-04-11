@@ -190,8 +190,9 @@ document.write(sumTwoDArray(twoDArray));
 
 */
 //switch statement
+/*
 var num = parseInt(prompt('Adj meg egy számot 1 és 3 között')); //átrakja integerré
-
+    //very very very sipmle :D
 switch(num){
     case 1: 
         document.write('Ez az az egyest adtad meg');
@@ -205,3 +206,58 @@ switch(num){
     default: 
         document.write('Hát ez nem jött ösze'); 
 }
+*/
+// Some Functions
+//Globális Függvények
+/*
+isFinite(x)  igaz, ha az x szám típus   isFinite("negyven") -> false | isFinite(40) -> true
+isNaN(x)  igaz, ha x nem szám típus    isNaN("negyven") -> true | isNan(40) -> false
+Number(x)  x változót szám típussá alakítja (ha tudja) document.write(Number("40.5 years")) -> 40.5
+parseFloat()  x változót valós számmá alakítja (ha tudja) document.write(parseFloat("40.5 years")) -> 40.5
+parseInt()  x változót egész számmá alakítja (ha tudja) document.write(parseInt("40.5 years")) -> 40
+String()  x változót stringgé alakítja   string(40) -> "40"
+
+//A Math Objektum Függvényei
+acos(x)   ARCCOS x értéke radiánban
+asin(x)   ARCSIN x értéke radiánban
+atan(x)   ARCTAN x értéke radiánban -PI/2 és PI/2 radián között
+atan2(y,x)  visszaadja a hányados cotangensét az argumentumából
+ceil(x)   visszaadja x étékét, felfelé kerekítve a legközelebbi egész számhoz
+sin(x)   SIN x értéke radiánban
+cos(x)   COS x értéke radiánban
+tan(x)   TAN x értéke radiánban
+exp(x)   visszaadja az Ex értékét
+floor(x)  X egész részét adja eredményül
+log(x)   az x tizes alapú logaritmusát képzi
+max(x,y,z,...,n) A megadott paraméterek közül a legnagyobbat adja eredményül
+min(x,y,z,...,n) A megadott paraméterek közül a legkisebbet adja eredményül
+pow(x,y)  Eredménye X az Y-adik hatványon
+random()  0..1 intervallumban valós véletlenszámot generál
+round(x)  lekerekíti x-et a legközelebbi egész számra
+sqrt(x)   x négyzetgyökét adja eredményül
+
+//String Objektum Függvényei
+length   A string karaktereinek számát adja vissza: s.length -> 9
+charAt(i)  A stringben "i"-edik pozicióján lévő karaktert adja vissza. (Nulladik elemmel kezdődik!): s.charAT(2) -> "m"
+charCodeAt(i)  Az "i"-edik pozición lévő karakter kódját adja vissza: s.charCodeAt(0) -> 65
+contact(s)  S Stringhez fűz stringet: s.contact("kusz") -> "Almáspitekusz"
+fromCharCode(i)  ASCII kód karakter értékét (értékeit) adja vissza: String.fromCharCode(72,69,76,76,79) -> "HELLO"
+indexOf(s)  A paraméterként megadott karakterlánc első eőfordulása stringben: s.indexOf("pite") -> 5
+lastIndexOf(s)  A paraméterként megadott karakterlánc utolsó előfordulása a stringben
+substr(i,j)  Karakterlánc kivágása, "i" poziciótól; "j" hosszan: s.substr(5,4) -> pite
+toLowerCase()  A stringet kisbetűsre konvertálja
+toUpperCase()  A stringet nagybetűsre konvertálja
+valueOf()  A string értékét adja vissza (két string összehasonlításánál fontos!)
+
+//Array Objektum Függvényei
+length   A tömb elemszámával tér vissza: tomb.length -> 4
+concat()  Két, vagy több tömböt egyesít
+indexOf()  A paraméterként kapott értéket keresi a tömbben, és indexet ad vissza: tomb.indexOf('Dinnye') -> 1
+lastIndexOf()  Ugyan az mint az "indexOf", de az utolsó előfordulását adja vissza
+pop()   Eltávolítja a tömb utolsó elemét: tomb.pop() -> 'Uborka','Dinnye','Krumpli'
+push()   Új elemet fűz a tömb végére: tomb.push('Sajt')
+shift()   Eltávolítja a tömb első elemét: tomb.shift() -> 'Dinnye','Krumpli','Sajt'
+unshift()  Új elemet szúr be a tömb első poziciójára. tomb.unshift()
+*/
+
+
