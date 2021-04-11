@@ -88,6 +88,8 @@ for (var i = 0; i < arr.length; i++){
     document.write(arr[i], ' ');
 }
 */
+
+/*
 function randomArrayNumbers(arr){
     for (var i = 0; i < 100; i++){
         arr.push(Math.floor(Math.random()* 100 ) +1 );
@@ -102,8 +104,7 @@ function countTheGivenNumberAndGiveTheIndex(arr, numb){
             document.write('Az: ',numb,' szám a ', i ,' indexne található meg', '<br>');          
             count++;            
         }
-    }
-   
+    }   
 
      document.write('A ', numb,' összesen ', count, '(szor/-szer) szerepel a tömben');
 }
@@ -119,5 +120,55 @@ randomArrayNumbers(arr);
 arrayPrineter(arr);
 countTheGivenNumberAndGiveTheIndex(arr,5);
 
+*/
 
-//https://www.youtube.com/watch?v=-eaB3rRNlLc&list=PLuYHIg_0xQJsiwA4jrXTWaIdqMGJQ4sAU&index=16
+// Hexa converter
+
+// parseInt(szám) integert csinál a valős számból
+
+function println(x){
+    document.write(x,'<br>');
+}
+// A hexa/bin converter function a given nubmer in decimals convereted into hexa/bin
+/*
+function hexaBinConverter (numb, switcher){    
+    var hexArray = new Array('0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F');
+    var binArray = new Array('0','1');
+    var result = new String();    
+    if (switcher == 0){    
+    while (numb != 0){
+        result = binArray[numb % 2] + result;
+        numb = parseInt(numb / 2);
+    }
+    return result;
+    
+    }else if(switcher == 1){
+        while (numb != 0){
+            result = hexArray[numb % 16] + result;
+            numb = parseInt(numb / 16);
+        }
+        return result;
+    }
+}
+var chooser = prompt('Pls choose: 0 for binary converter or 1 for hexa converter');
+
+
+if((chooser == 1 || chooser == 0)){
+    var num = prompt('Give me the number');  
+    if(isFinite(num) && Math.floor(num) == num){
+        println(hexaBinConverter(num,chooser));
+    }else{
+        alert('Something wrong');
+    }
+}else{
+    alert('Something wrong');
+
+}
+*/
+
+
+
+
+
+
+
