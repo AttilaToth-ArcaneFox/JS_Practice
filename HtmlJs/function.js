@@ -292,6 +292,7 @@ function ember(name, age){
 
   */
 
+  /*
   // setInvertl("Bármilyen függvény", milyen időközönként csinálja)
   // setTimeout("Bármilyen füügvény", amikor lejár at idő)
   function kiir(){
@@ -299,3 +300,68 @@ function ember(name, age){
   }
 
 setTimeout("alert('Hello')",1000);
+*/
+
+//vissza adja a formban lévő 0. elem name attributumár itt pls username
+// bármit lekérhatünk a html doksiból!
+/*
+function getAnyithing(){
+    var x = document.RandomName.username.type;
+    return x;}
+
+document.write(getAnyithing());
+*/
+
+/*
+El kell fogadni a felhasználási feltételeket
+
+function acceptedX(){
+    if(document.forms[0].box.checked){
+      return "Ty";
+    }else{
+      return "You need to accept!";
+    }
+}
+*/
+
+/*
+// Megszámolja hány db input tag van ebben az esetben
+function getLengtOfElements(){
+    var count = document.getElementsByTagName("input").length;
+    return count;
+}
+document.write(getLengtOfElements());
+*/
+
+//megváltozik a szine a dolgnak ha rákattintunk
+/*
+function valtas(){
+    document.getElementById("lick").style.color="#ff0000";
+}
+*/
+
+/*
+//color changer
+function piros(){
+    document.body.style.background = "red";
+}
+function kek(){
+    document.body.style.background = "blue";
+}
+function zold(){
+    document.body.style.background = "green";
+}
+*/
+
+/*
+//open and close windows
+function openWin(){
+    ablak = window.open("","","width=200, height=200");
+    ablak.document.write("Valmai")
+}
+
+function closeWin(){
+    ablak.close();
+}
+*/7
+
